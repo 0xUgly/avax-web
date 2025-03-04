@@ -17,30 +17,30 @@ function Header() {
   return (
     <main className='bg-black'>
     <div className="flex justify-center p-4 py-8 bg-black gap-5 items-center border-b-2  w-[80%] mx-auto">
-       <div className="flex items-center gap-2">
+       {/* <div className="flex items-center gap-2">
               <Image
               src='/logos/RL.png'
               alt=''
               height={23}
               width={33}
               />
-            </div>
+            </div> */}
             <div className="flex items-center gap-2">
               <Image
-              src='/logos/OP.png'
+              src='/logos/avaxlogo.svg'
               alt=''
               height={60}
               width={60}
               />
             </div>
-            <div className="text-[#FF0000] text-xs flex flex-col items-end gap-2">
+            {/* <div className="text-[#FF0000] text-xs flex flex-col items-end gap-2">
             <Image
               src='/logos/thirdweeb.png'
               alt=''
               height={20}
               width={33}
               />
-            </div>
+            </div> */}
           </div>
           </main>
 )

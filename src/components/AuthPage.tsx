@@ -22,13 +22,13 @@ const GameSelectionUI : React.FC<GameSelectionUIProps> = ({ isLoading, selectedG
       <Header/>
       <div className="flex min-h-screen bg-black">
       <div className="w-full max-w-md mx-auto bg-black text-white rounded-3xl flex flex-col gap-4 overflow-hidden">
-        <div className="p-1 pt-7 ">
+        {/* <div className="p-1 pt-7 ">
          
             <h2 className="text-xl text-center text-white text-[28px] font-bold font-zk">Games</h2>
          
-        </div>
+        </div> */}
         <div className='flex   justify-center'>
-        <div className='bg-white w-[316px] flex items-center justify-center rounded-[20px] h-[316px]'>
+        <div className='bg-white w-[200px] flex items-center justify-center rounded-[20px] h-[200px]'>
           <Image
           className='p-1 rounded-[20px]'
           src='/gameimg/crashy.png'
@@ -41,14 +41,14 @@ const GameSelectionUI : React.FC<GameSelectionUIProps> = ({ isLoading, selectedG
         <div className='w-full flex items-center justify-center'>
         <button onClick={() => onGameSelect("unity3")}
                       disabled={isLoading}
-                       className='bg-[#FF0420] mt-2 w-[305px] text-center font-zk text-[30px] flex items-center justify-center font-bold rounded-[10px] text-white'>PLAY</button>
+                       className='bg-[#FF0420] mt-2 w-[100px] text-center font-zk text-[20px] flex items-center justify-center font-bold rounded-[0px] text-white'>PLAY</button>
         </div>
-        <div className='w-full flex items-center justify-center mt-3'>
+        {/* <div className='w-full flex items-center justify-center mt-3'>
         <div className='w-[312px] '>
           <h1 className='font-bold font-zk text-[20px] text-[#FF0420]'>Crashy Chase</h1>
           <div className='font-medium text-[12px] font-zk'>About : In this thrilling 3D game, players control a car speeding through a plain landscape, pursued by relentless enemy vehicles. The challenge intensifies as players must skillfully dodge oncoming cars, swerve around trees, and stay alert for sudden bombs dropped from the sky.</div>
         </div>
-        </div>
+        </div> */}
       </div>
     </div>
     </>
