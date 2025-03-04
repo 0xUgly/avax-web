@@ -27,7 +27,7 @@ const GameSelectionUI : React.FC<GameSelectionUIProps> = ({ isLoading, selectedG
             <h2 className="text-xl text-center text-white text-[28px] font-bold font-zk">Games</h2>
          
         </div> */}
-        <div className='flex   justify-center'>
+        <div className='flex   justify-center pt-10'>
         <div className='bg-white w-[200px] flex items-center justify-center rounded-[20px] h-[200px]'>
           <Image
           className='p-1 rounded-[20px]'

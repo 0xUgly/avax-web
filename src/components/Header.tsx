@@ -29,8 +29,8 @@ function Header() {
               <Image
               src='/logos/avaxlogo.svg'
               alt=''
-              height={60}
-              width={60}
+              height={100}
+              width={100}
               />
             </div>
             {/* <div className="text-[#FF0000] text-xs flex flex-col items-end gap-2">
